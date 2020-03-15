@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "3f8eb419-89c3-4bf5-82b6-9ddd82e93e79",
+            "Value": {
+                "id": "688bbc5a-a1bf-4b5a-83cb-5fa4f24f399a",
+                "resourcePath": "objects\\HexField\\HexField.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "517b3532-5e77-4d3e-ac70-7c5af408b200",
             "Value": {
                 "id": "a0aef1b1-4481-4d1b-86a0-7e0998492903",
@@ -143,11 +151,35 @@
             }
         },
         {
+            "Key": "bef50149-7ee2-45d2-bf73-eae1a7bd8f29",
+            "Value": {
+                "id": "47abd5c4-9f6e-44da-a4db-f737531e5836",
+                "resourcePath": "sprites\\HexField_spr\\HexField_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bfdd3da5-4c97-4eb6-89f2-8d6d05c65712",
+            "Value": {
+                "id": "cea87b68-78a0-464a-a255-8eae38670d97",
+                "resourcePath": "objects\\GameMap\\GameMap.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cb167282-78a2-423e-9271-02d259e0e111",
             "Value": {
                 "id": "e646ee70-167a-483d-a6d9-b916f7e6dac5",
                 "resourcePath": "views\\cb167282-78a2-423e-9271-02d259e0e111.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cb361b0a-faf1-43aa-81f4-cafea8c2cba0",
+            "Value": {
+                "id": "a2e11e6a-3a0e-4736-9341-641a69b92b8f",
+                "resourcePath": "objects\\GameCamera\\GameCamera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -170,7 +202,7 @@
             "Key": "e6a40623-5f38-4768-ae3e-ea58156f80e4",
             "Value": {
                 "id": "d5d68c89-1166-4121-99ec-c96183cdcec5",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\GameRoom\\GameRoom.yy",
                 "resourceType": "GMRoom"
             }
         },
