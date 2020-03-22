@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02718dcf-6297-4a7f-9f55-1dbbc14fb0c1",
+            "Value": {
+                "id": "1d56519b-03ba-432c-8c7a-6bc606d6e7bf",
+                "resourcePath": "sprites\\HexField_spr\\HexField_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08412e83-33d8-4fe0-ac30-88106142bd01",
             "Value": {
                 "id": "67d207af-2ef8-4b50-afdd-0d1d3e73cd1f",
@@ -44,6 +52,22 @@
                 "id": "35c02029-2163-44b9-ad9b-314705301692",
                 "resourcePath": "views\\242610e0-188f-48f1-9e53-b1a5a919f010.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "245376d2-c9a4-40dd-bbc4-7528839c9c2b",
+            "Value": {
+                "id": "3ee2ea94-ed9c-41e9-8812-be3c5c0ea562",
+                "resourcePath": "shaders\\shGreen\\shGreen.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "2b10daf8-e17c-49fc-8be6-a1f67541f446",
+            "Value": {
+                "id": "94280e53-ad53-4845-b086-65ccffdbf552",
+                "resourcePath": "shaders\\shRed\\shRed.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -79,6 +103,22 @@
             }
         },
         {
+            "Key": "5e0bd7b9-0f82-4b5d-be78-bee3dc7318af",
+            "Value": {
+                "id": "4abfab9f-6b62-4cc0-9e07-d28528d5b611",
+                "resourcePath": "objects\\GlobalVariable\\GlobalVariable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5e81a3dc-5247-4dfd-b3d3-9b772f5d30c3",
+            "Value": {
+                "id": "a64f9498-7393-4749-8f01-0b3f9ac8d6d5",
+                "resourcePath": "scripts\\CameraMove\\CameraMove.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6f7af8af-3ec6-40d4-abb7-de6e591fc861",
             "Value": {
                 "id": "73b84e84-cf83-4fd4-b408-3a05c83742ac",
@@ -99,6 +139,14 @@
             "Value": {
                 "id": "4ec015f6-fd8d-4cb2-b416-8447f67ef2ef",
                 "resourcePath": "views\\7be18f02-90b3-4193-b36c-862850b2b0cf.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7cdb7334-5e31-4c8c-a724-a647839af14d",
+            "Value": {
+                "id": "3633d96a-f285-40b2-9e5b-fb50435b0a09",
+                "resourcePath": "views\\7cdb7334-5e31-4c8c-a724-a647839af14d.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -151,19 +199,19 @@
             }
         },
         {
-            "Key": "bef50149-7ee2-45d2-bf73-eae1a7bd8f29",
-            "Value": {
-                "id": "47abd5c4-9f6e-44da-a4db-f737531e5836",
-                "resourcePath": "sprites\\HexField_spr\\HexField_spr.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "bfdd3da5-4c97-4eb6-89f2-8d6d05c65712",
             "Value": {
                 "id": "cea87b68-78a0-464a-a255-8eae38670d97",
                 "resourcePath": "objects\\GameMap\\GameMap.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c69428fd-2f73-4757-b3f6-0f7403628266",
+            "Value": {
+                "id": "f6e2f026-64b5-482b-8e56-a0e3426a751a",
+                "resourcePath": "scripts\\CameraInit\\CameraInit.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -224,7 +272,8 @@
         }
     ],
     "script_order": [
-        
+        "c69428fd-2f73-4757-b3f6-0f7403628266",
+        "5e81a3dc-5247-4dfd-b3d3-9b772f5d30c3"
     ],
     "tutorial": ""
 }

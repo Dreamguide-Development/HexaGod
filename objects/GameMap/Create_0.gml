@@ -8,7 +8,15 @@ var HexFieldWidth = sprite_get_width(HexField_spr);
 var HexFieldHeigh = sprite_get_height(HexField_spr);
 //Math optimalization
 var SpaceOffset = 128/sqrt(5);
+random_set_seed(date_get_second_of_year(date_current_datetime()));
+/* initialize game camera */
+var GameCam = instance_create_layer(0, 0, MapLayerId, GameCamera);
+var CamX = 2404;
+var CamY = 1932;
+GameCam.PosX = CamX;
+GameCam.PosY = CamY;
 
+/* generate game map */
 for(x = 0; x < Width; x++)
 {
 	for(y = 0; y < Height; y++)
@@ -19,9 +27,10 @@ for(x = 0; x < Width; x++)
 		HexFields[x,y] = instance_create_layer(XDrawPos, YDrawPos, MapLayerId, HexField);
 		HexFields[x,y].PositionX = x;
 		HexFields[x,y].PositionY = y;
+		HexFields[x,y].BiomeId =  round(random_range(1, 2));
+		HexFields[x,y].image_index = HexFields[x,y].BiomeId;
 	}	
 }
-
 
 
 
