@@ -2,7 +2,7 @@
     "id": "bfdd3da5-4c97-4eb6-89f2-8d6d05c65712",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "GameMap",
+    "name": "GameMapDef",
     "eventList": [
         {
             "id": "efb521be-8a49-405e-bed1-b14f7dd1db7e",

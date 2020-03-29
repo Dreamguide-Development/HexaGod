@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 if(global.ShaderX == PositionX && global.ShaderY == PositionY)
 {
 	if(isRed == true)
@@ -22,7 +19,6 @@ else
 {
 	draw_self();
 }
-
 if(mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, self))
 {
 	shader_set(shRed);
@@ -33,7 +29,6 @@ if(mouse_check_button_pressed(mb_left) && position_meeting(mouse_x, mouse_y, sel
 	isGreen = false;
 	isRed = true;
 }
-
 if(mouse_check_button_pressed(mb_right) && position_meeting(mouse_x, mouse_y, self))
 {
 	shader_set(shGreen);
@@ -44,3 +39,4 @@ if(mouse_check_button_pressed(mb_right) && position_meeting(mouse_x, mouse_y, se
 	isRed = false;
 	isGreen = true;
 }
+

@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "27f5e6ee-1ba7-4f20-b7af-4041ca0cfcc7",
+            "Value": {
+                "id": "d8a5ab80-682f-4276-8806-d432fcd15c1e",
+                "resourcePath": "objects\\GameContainerDef\\GameContainerDef.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2b10daf8-e17c-49fc-8be6-a1f67541f446",
             "Value": {
                 "id": "94280e53-ad53-4845-b086-65ccffdbf552",
@@ -74,7 +82,7 @@
             "Key": "3f8eb419-89c3-4bf5-82b6-9ddd82e93e79",
             "Value": {
                 "id": "688bbc5a-a1bf-4b5a-83cb-5fa4f24f399a",
-                "resourcePath": "objects\\HexField\\HexField.yy",
+                "resourcePath": "objects\\HexFieldDef\\HexFieldDef.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -100,14 +108,6 @@
                 "id": "92f0b128-100d-40cc-8e41-902d56370219",
                 "resourcePath": "views\\5909bd1c-b815-4e7b-a6e8-a837c99f6a15.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "5e0bd7b9-0f82-4b5d-be78-bee3dc7318af",
-            "Value": {
-                "id": "4abfab9f-6b62-4cc0-9e07-d28528d5b611",
-                "resourcePath": "objects\\GlobalVariable\\GlobalVariable.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -202,7 +202,7 @@
             "Key": "bfdd3da5-4c97-4eb6-89f2-8d6d05c65712",
             "Value": {
                 "id": "cea87b68-78a0-464a-a255-8eae38670d97",
-                "resourcePath": "objects\\GameMap\\GameMap.yy",
+                "resourcePath": "objects\\GameMapDef\\GameMapDef.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -226,7 +226,7 @@
             "Key": "cb361b0a-faf1-43aa-81f4-cafea8c2cba0",
             "Value": {
                 "id": "a2e11e6a-3a0e-4736-9341-641a69b92b8f",
-                "resourcePath": "objects\\GameCamera\\GameCamera.yy",
+                "resourcePath": "objects\\GameCameraDef\\GameCameraDef.yy",
                 "resourceType": "GMObject"
             }
         },

@@ -2,7 +2,7 @@
     "id": "3f8eb419-89c3-4bf5-82b6-9ddd82e93e79",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "HexField",
+    "name": "HexFieldDef",
     "eventList": [
         {
             "id": "cda10e77-1fb4-416d-bce9-a2f516fc058b",
@@ -32,6 +32,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
+            "m_owner": "3f8eb419-89c3-4bf5-82b6-9ddd82e93e79"
+        },
+        {
+            "id": "d0ef5715-000f-4891-87ba-bf49b9cd5290",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 13,
             "m_owner": "3f8eb419-89c3-4bf5-82b6-9ddd82e93e79"
         }
     ],

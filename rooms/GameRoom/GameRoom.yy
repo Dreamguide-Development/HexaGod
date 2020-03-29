@@ -7,8 +7,7 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "2745f34f-400c-488c-909e-6dd06c4246d8",
-        "dd06f164-ec42-4831-a399-f2589bd1574d"
+        "83a671b9-9188-43aa-86fa-163f4dd49e3b"
     ],
     "IsDnD": false,
     "layers": [
@@ -130,8 +129,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_47AACE6","id": "2745f34f-400c-488c-909e-6dd06c4246d8","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_47AACE6","objId": "bfdd3da5-4c97-4eb6-89f2-8d6d05c65712","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 0,"y": 0},
-{"name": "inst_164FFC8E","id": "dd06f164-ec42-4831-a399-f2589bd1574d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_164FFC8E","objId": "5e0bd7b9-0f82-4b5d-be78-bee3dc7318af","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 864,"y": 2176}
+{"name": "inst_68AC3D43","id": "83a671b9-9188-43aa-86fa-163f4dd49e3b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_68AC3D43","objId": "27f5e6ee-1ba7-4f20-b7af-4041ca0cfcc7","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 0,"y": 0}
             ],
             "layers": [
 
@@ -187,7 +185,7 @@
         "modelName": "GMRoomPhysicsSettings",
         "PhysicsWorld": false,
         "PhysicsWorldGravityX": 0,
-        "PhysicsWorldGravityY": 10,
+        "PhysicsWorldGravityY": 0,
         "PhysicsWorldPixToMeters": 0.1,
         "mvc": "1.0"
     },
