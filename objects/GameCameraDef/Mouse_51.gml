@@ -1,2 +1,2 @@
-global.xTo = PosX + (global.xScrollStart - mouse_x);
-global.yTo = PosY + (global.yScrollStart - mouse_y);
+xTo = PosX + (xScrollStart - mouse_x);
+yTo = PosY + (yScrollStart - mouse_y);

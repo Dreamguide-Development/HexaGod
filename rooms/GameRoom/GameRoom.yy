@@ -2,7 +2,7 @@
 {
     "name": "GameRoom",
     "id": "e6a40623-5f38-4768-ae3e-ea58156f80e4",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -147,7 +147,7 @@
             "id": "b3e5b3ba-6fc9-4385-a160-0b0a21f7c563",
             "animationFPS": 15,
             "animationSpeedType": "0",
-            "colour": { "Value": 4288256256 },
+            "colour": { "Value": 4278190080 },
             "depth": 500,
             "grid_x": 32,
             "grid_y": 32,
@@ -200,7 +200,7 @@
     },
     "mvc": "1.0",
     "views": [
-{"id": "19ebd5e3-0c21-4be1-96b2-ebd14a2f0ff4","hborder": 32,"hport": 768,"hspeed": -1,"hview": 1536,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": true,"vspeed": -1,"wport": 1024,"wview": 2048,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "19ebd5e3-0c21-4be1-96b2-ebd14a2f0ff4","hborder": 32,"hport": 720,"hspeed": -1,"hview": 1440,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": true,"vspeed": -1,"wport": 1280,"wview": 2560,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "95a8c455-77c0-419b-b602-fe3b5c845def","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "1e4c3668-e4dd-4910-9c67-8e1d4e829aa7","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "fb30d2a7-4056-4588-84e6-43d24812ccf6","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},

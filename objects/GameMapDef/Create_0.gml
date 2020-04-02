@@ -1,5 +1,5 @@
-var Height = 11;
-var Width = 11;
+var Height = 23;
+var Width = 45;
 var MapXCenter = 2500;
 var MapYCenter = 2500;
 var HexFields = array_create(Height * Width);

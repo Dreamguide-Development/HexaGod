@@ -1,23 +1,34 @@
-/*camera initialization*/
-camera = camera_create();
-var PosX = 2404;
-var PosY = 1932;
-CameraZoomLevel = 1;
-CameraZoomToLevel = 1;
+/* camera variables initialization */
+/* constant variables */
 CameraZoomMinLevel = 0.5;
 CameraZoomMaxLevel = 2;
-CameraBaseWidth = 2048;
-CameraBaseHeight = 1536;
+CameraBaseWidth = 3840;
+CameraBaseHeight = 2160;
+CameraBaseSpeed = 15;
+CameraAngularSpeed = CameraBaseSpeed / sqrt(2);
+/* dynamic variables */
+camera = camera_create();
+PosX = 0;
+PosY = 0;
+xTo = PosX;
+yTo = PosY;
+CameraZoomLevel = 1;
+LastCameraZoomLevel = 1;
+CameraZoomToLevel = CameraZoomLevel;
+xScrollStart = 0;
+yScrollStart = 0;
+/* camera sfx & sound variables */
+moveSound = -1;
+zoomSound = -1;
+zoomSoundCounter = 0;
+isZoomSoundFading = false;
 
-var vm = matrix_build_lookat(PosX,PosY,-10,PosX,PosY,0,0,1,0);
-var pm = matrix_build_projection_ortho(2048,1536,1,10000);
+var vm = matrix_build_lookat(PosX, PosY, -10, PosX, PosY, 0, 0, 1, 0);
+var pm = matrix_build_projection_ortho(CameraBaseWidth, CameraBaseHeight, 1, 10000);
 
 camera_set_view_mat(camera,vm);
 camera_set_proj_mat(camera,pm);
 
 view_camera[0] = camera;
 
-global.xTo = PosX;
-global.yTo = PosY;
-global.xScrollStart = 0;
-global.yScrollStart = 0;
+
