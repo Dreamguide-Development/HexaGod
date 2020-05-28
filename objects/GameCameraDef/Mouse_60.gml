@@ -1,7 +1,14 @@
-CameraZoomToLevel -= 0.1;
-if (CameraZoomToLevel < CameraZoomMinLevel) CameraZoomToLevel = CameraZoomMinLevel;
-if (!audio_is_playing(zoomSound))
+if (!global.game.isGameViewBlocked)
 {
-	zoomSound = audio_play_sound(camera_zoomout, 5, false);
-	audio_sound_gain(zoomSound, 0.3, 0);
+	CameraZoomToLevel -= 0.1;
+
+	if (CameraZoomToLevel < CameraZoomMinLevel)
+	{
+		CameraZoomToLevel = CameraZoomMinLevel;
+	}
+	else
+	{
+		xTo -= 65;
+		yTo += 12;	
+	}
 }

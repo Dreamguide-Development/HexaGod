@@ -1,0 +1,1 @@
+draw_sprite(GuiTurnBtn_spr, imageIndex, imagePosX1, imagePosY1);

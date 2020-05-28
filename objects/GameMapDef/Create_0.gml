@@ -1,5 +1,7 @@
 var Height = 23;
+Height = 10;
 var Width = 45;
+Width = 10;
 var MapXCenter = 2500;
 var MapYCenter = 2500;
 var HexFields = array_create(Height * Width);
@@ -20,8 +22,19 @@ for(x = 0; x < Width; x++)
 		HexFields[x,y] = instance_create_layer(XDrawPos, YDrawPos, MapLayerId, HexFieldDef);
 		HexFields[x,y].PositionX = x;
 		HexFields[x,y].PositionY = y;
-		HexFields[x,y].BiomeId =  round(random_range(1, 2));
-		HexFields[x,y].image_index = HexFields[x,y].BiomeId;
+		HexFields[x,y].BiomeId =  round(random_range(1, 3));
+		switch(HexFields[x,y].BiomeId)
+		{
+			case 1:
+				HexFields[x,y].image_index = 1;
+				break;
+			case 2:
+				HexFields[x,y].image_index = 2 + round(random_range(0, 1));
+				break;
+			case 3:
+				HexFields[x,y].image_index = 4 + round(random_range(0, 1));
+				break;
+		}
 	}	
 }
 

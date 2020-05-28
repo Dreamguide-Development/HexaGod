@@ -6,6 +6,8 @@ CameraBaseWidth = 3840;
 CameraBaseHeight = 2160;
 CameraBaseSpeed = 15;
 CameraAngularSpeed = CameraBaseSpeed / sqrt(2);
+UiHeightOffset = 120;
+UiWidthOffset = 650;
 /* dynamic variables */
 camera = camera_create();
 PosX = 0;
@@ -17,11 +19,7 @@ LastCameraZoomLevel = 1;
 CameraZoomToLevel = CameraZoomLevel;
 xScrollStart = 0;
 yScrollStart = 0;
-/* camera sfx & sound variables */
-moveSound = -1;
-zoomSound = -1;
-zoomSoundCounter = 0;
-isZoomSoundFading = false;
+isClickedOnMap = false;
 
 var vm = matrix_build_lookat(PosX, PosY, -10, PosX, PosY, 0, 0, 1, 0);
 var pm = matrix_build_projection_ortho(CameraBaseWidth, CameraBaseHeight, 1, 10000);

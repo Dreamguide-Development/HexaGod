@@ -1,8 +1,8 @@
-if (!global.isRightMouseBtnDown && (keyboard_check(ord("S")) ^^ keyboard_check(ord("W"))))
+if (!global.isRightMouseBtnDown && !global.game.isGameViewBlocked && (keyboard_check(ord("S")) ^^ keyboard_check(ord("W"))))
 {
 	xTo += CameraAngularSpeed;	
 }
-else if (!global.isRightMouseBtnDown)
+else if (!global.isRightMouseBtnDown && !global.game.isGameViewBlocked)
 {
 	xTo += CameraBaseSpeed;	
 }

@@ -1,6 +1,13 @@
 randomPlaySound = round(random_range(0, 99));
 
-if (!position_meeting(mouse_x, mouse_y, GuiBaseDef) && !audio_is_playing(clickSound) && randomPlaySound >= 90)
+if (!IsMouseOnUI() && !global.game.isGameViewBlocked)
+{
+	global.ShaderX = PositionX;
+	global.ShaderY = PositionY;
+	isRed = true;
+}
+
+if (!IsMouseOnUI() && !global.game.isGameViewBlocked && !audio_is_playing(clickSound) && randomPlaySound >= 90 )
 {
 	switch (BiomeId){
 		case 1:
@@ -12,3 +19,6 @@ if (!position_meeting(mouse_x, mouse_y, GuiBaseDef) && !audio_is_playing(clickSo
 	}
 	audio_sound_gain(clickSound, 0.1, 0);
 }
+
+
+
